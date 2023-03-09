@@ -1,0 +1,77 @@
+body{
+    
+    background-color: #f4f4f4;
+}
+/* .header{
+    position: sticky;
+    top: 0px;
+} */
+#navbar{
+    position: sticky;
+    top: 0px;
+    height: 100px;
+    background-color: #f4f4f4;
+
+}
+.dropbtn {
+    border: none;
+    margin: 0px 25px 0px 0;
+    font-size: 14px;
+    background: url(https://bucket2.format-assets.com/theme_versions/9337856/assets/images/arrow-down.svg) right 60% no-repeat;
+    padding-right: 30px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    padding: 8px 20px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  .production-heading-text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin: 15px 0px;
+}
+.list-item li{
+    display: inline;
+    margin: 3px 18px ;
+}
+.list-item li  a{
+    text-decoration: none;
+    color: black;
+}
+.production-heading-text{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin: 15px 0px;
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    margin-top: 125px;
+    margin-bottom: 60px;
+    font-size: 12px;
+    line-height: 2;
+}
